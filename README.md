@@ -1,4 +1,9 @@
 # Workspace ONE Access User and Groups APIs Provisioned-Users
+> Author(s): Jiaqi Gao (jiaqig@vmware.com)
+>
+> Date Created: Jul 7th, 2022
+
+*The following SCIM1.1 APIs have been made available to select IdP partners and customers for local user management of users provisioned by the third-party IdP.*
 
 ## Create a provisioned user in other directory 
 It allows to create the provisioned users in the other directory when InternalUserType is specified as PROVISIONED and domain is specified, which is used to infer the directory.
