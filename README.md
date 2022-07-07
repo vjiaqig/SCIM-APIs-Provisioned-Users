@@ -82,3 +82,18 @@ ETag: W/"f250dd84f0671c3"
 }
 }
 ```
+
+## Find Users: UserResource By externalId
+```
+GET /SAAS/jersey/manager/api/scim/Users?filter=externalId%20eq%20%223273e0f7-1756-440b-a90b-fa0056a10fa0%22
+Host: sva.eng.vmware.com
+Authorization: Bearer h480djs93hd8
+```
+
+## Delete User Resource 
+Delete will currently operate on any user, synchronized or not. It takes only the id as a parameter and does not discriminate based on the user's userStore value.
+```
+DELETE /SAAS/jersey/manager/api/scim/Users/d24afa39-05a1-433f-8aa9-ad41c9a3d394
+Host: sva.eng.vmware.com
+Authorization: Bearer h480djs93hd8
+```
